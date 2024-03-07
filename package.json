@@ -1,0 +1,49 @@
+{
+  "name": "dingding-bot-tools",
+  "version": "1.0.0",
+  "description": "nodejs调用钉钉机器人插件",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "jest",
+    "tsc": "typescript",
+    "lint": "ts-standard",
+    "lint:fix": "ts-standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crazelava/dingding-bot-tools.git"
+  },
+  "author": "crazelava",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.6.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-typescript": "^7.16.7",
+    "@types/jest": "^27.4.1",
+    "@types/node": "^17.0.23",
+    "@typescript-eslint/eslint-plugin": "^5.14.0",
+    "@typescript-eslint/parser": "^5.14.0",
+    "babel-jest": "^27.5.1",
+    "eslint": "^8.10.0",
+    "jest": "^27.5.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-typescript2": "^0.31.2",
+    "rollup-plugin-uglify": "^6.0.4",
+    "ts-node": "^10.7.0",
+    "ts-standard": "^11.0.0"
+  },
+  "keywords": [
+    "dingdingrobot",
+    "nodejs",
+    "dingding",
+    "typescript"
+  ]
+}
